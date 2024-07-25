@@ -27,6 +27,14 @@ Metaschema achieves this with:
 - A modeling abstraction that unifies the modeling and validation capabilities of existing schema and validation technologies.
 - Tools that automatically generate code, schemas, documentation, and format-appropriate content converters from Metaschema-based models.
 
+## Relationship to usnistgov/metaschema
+
+This fork is based on the Metaschema work from [usnistgov/metaschema](https://github.com/usnistgov/metaschema). This fork was established to support the design, implementation, and testing of new Metaschema features needed by GSA [FedRAMP](https://fedramp.gov) to support various data modeling and data validation initiatives.
+
+This effort is intended to be complimentary to the NIST Metaschema efforts. Changes in this repository are intended to be backwards compatible with NIST Metaschema, adding new features and functionality. Changes here are periodically contributed back to the usnistgov/metaschema repository to maintain alignment.
+
+ We accept [contributions here](https://github.com/GSA/metaschema/blob/main/CONTRIBUTING.md) or you can [contribute to the NIST upstream](https://github.com/usnistgov/metaschema/blob/main/CONTRIBUTING.md).
+
 ## Resources
 
 - [Metaschema Specification](https://pages.nist.gov/metaschema/specification/)
@@ -41,8 +49,8 @@ Metaschema achieves this with:
 
 ## Contact us
 
-Maintainer: [David Waltermire](https://www.nist.gov/people/david-waltermire) - [@david-waltermire](https://github.com/david-waltermire), [NIST](https://www.nist.gov/) [Information Technology Labratory](https://www.nist.gov/itl), [Computer Security Division](https://www.nist.gov/itl/csd), [Security Components and Mechanisms Group](https://www.nist.gov/itl/csd/security-components-and-mechanisms)
+Fork Maintainer: [David Waltermire](https://github.com/david-waltermire)
 
-Email us: [metaschema@nist.gov](mailto:metaschema@nist.gov)
+Email FedRAMP: [oscal@fedramp.gov](mailto:oscal@fedramp.gov)
 
 Chat with us: [Gitter OSCAL/metaschema](https://gitter.im/usnistgov-OSCAL/metaschema)
